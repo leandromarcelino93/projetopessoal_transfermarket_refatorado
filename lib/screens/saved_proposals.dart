@@ -64,7 +64,7 @@ class _SavedProposalsState extends State<SavedProposals> {
                 ),
                 trailing: Padding(
                   padding: const EdgeInsets.all(10.0),
-                  child: Text('R\$${pr.valueofplayer}'),
+                  child: Text('R\$ ${pr.valueofplayer.toStringAsFixed(2)}'),
                 ),
               ),
             );
